@@ -5,7 +5,7 @@ This docker image build a complete BTCZ environement based on bitcore node (Insi
 The docker image `build` can take several hours.
 ```
 git clone https://github.com/MarcelusCH/btcz-docker-full-env.git
-cd https://explorer.btcz.app
+cd btcz-docker-full-env
 sudo docker build . -t btcz/full-env --network host
 sudo docker create --network host --name btcz-full-env -it btcz/full-env
 sudo docker start btcz-full-env
