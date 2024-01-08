@@ -1,0 +1,31 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-api-btcz",
+    "insight-ui-btcz",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "connect": [
+        {
+          "rpchost": "127.0.0.1",
+          "rpcport": 1979,
+          "rpcuser": "bitcoinz",
+          "rpcpassword": "MyRPCpwdToChange",
+          "zmqpubrawtx": "tcp://127.0.0.1:28332"
+        }
+      ]
+    },
+    "insight-api-btcz": {
+      "disableRateLimiter": true,
+      "routePrefix": "api"
+    },
+    "insight-ui-btcz": {
+      "apiPrefix": "api",
+      "routePrefix": ""
+    }
+  }
+}
