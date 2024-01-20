@@ -50,7 +50,7 @@ RUN	 	 sudo mkdir /data && sudo mkdir /data/db
 # Install the BTCZ binaries
 RUN	 	 mkdir /home/adminbtcz/bitcoinz
 WORKDIR  /home/adminbtcz/bitcoinz
-RUN 	 curl -L -o bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip https://github.com/btcz/bitcoinz/releases/download/2.0.8/bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
+RUN 	 curl -L -o bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip https://github.com/btcz/bitcoinz/releases/download/2.0.8-EXT/bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip
 RUN 	 unzip bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
 RUN	 	 chmod +x -R ./
 RUN	 	 rm bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
