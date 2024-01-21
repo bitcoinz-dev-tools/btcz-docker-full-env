@@ -68,5 +68,4 @@ echo " - Web Wallet                http://127.0.0.1:2275"
 #echo " - Copay Wallet              http://127.0.0.1:8100"
 echo ""
 
-sleep 3s
-exit
+sleep 3s && /bin/bash
