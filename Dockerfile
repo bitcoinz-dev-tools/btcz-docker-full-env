@@ -211,7 +211,21 @@ RUN      echo "" \
 		 && echo "" \
          && echo "" && sleep 30s
 
-
+# Dockerfile tells Docker that a container listens for traffic on the specified port. 
+#Insight explorer
+EXPOSE 3001
+#VaultZ 
+EXPOSE 2255
+#Rate API
+EXPOSE 3333
+#BWS API
+EXPOSE 3232 
+#Paper Wallet
+EXPOSE 2265
+#Web Wallet
+EXPOSE 2275
+ENTRYPOINT ["/bin/bash"]
+CMD ["btcz-start"]
 
 
 
