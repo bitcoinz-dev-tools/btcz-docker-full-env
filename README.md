@@ -78,7 +78,7 @@ These are the exposed Web services.
 Big Thanks to the Marcelus 👑
 
 
-## Setup
+## Setup from source code
 The docker image `build` can take several hours.
 ```
 git clone https://github.com/simbav911/btcz-docker-full-env.git
