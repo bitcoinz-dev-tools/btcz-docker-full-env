@@ -21,7 +21,7 @@ By running this dock container  (full node wallet)  you helping with the decentr
 
 <img src="https://shorturl.at/ezDJU"
  width="280"
-  height="450" />
+  height="500" />
 
 sudo docker pull simbav/bitcoinz-full  
 
