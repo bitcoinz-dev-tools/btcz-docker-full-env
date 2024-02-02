@@ -81,7 +81,7 @@ Big Thanks to the Marcelus 👑
 ## Setup
 The docker image `build` can take several hours.
 ```
-git clone https://github.com/MarcelusCH/btcz-docker-full-env.git
+git clone https://github.com/simbav911/btcz-docker-full-env.git
 cd btcz-docker-full-env
 sudo docker build . -t btcz/full-env --network host
 sudo docker create --network host --name btcz-full-env -it btcz/full-env
