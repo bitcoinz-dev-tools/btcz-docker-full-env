@@ -1,5 +1,82 @@
 # btcz-docker-full-env
 This docker image build a complete BTCZ environement based on bitcore node (Insight explorer and API with BWS and rates API)
+<img src="https://steemitimages.com/DQmezupwdF4Ju2SCfE1fK6qkWNDhj12Sw7r1Um5m6FcFJrD/image.png"
+ width="999"
+  height="280" />
+
+This docker image builds a complete BTCZ environment based on bitcore full node, Insight explorer. Paper Wallet, Web Wallet, BTCZ Vault Info. API with BWS and rates API for the Bitcoinz Copay Wallet, multi-platform included Android on Google Play.
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/releases/tag/v10.2.0" target="_blank" data-icon="&#xf1d8;">Bitcoinz Copay Wallet Multiplatform </a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://play.google.com/store/apps/details?id=com.btczcom.btcz&hl=en_ZA" target="_blank" data-icon="&#xf1d8;">Android Wallet </a>
+</div>
+
+That is means you can run a full node wallet and connect from any device to your node using BitcoinZ Copay Wallet without middlemen. You can connect to your own network via VPN or port forwarding to BWS API.
+After running the BitcoinZ full container you need only change BMS settings in the wallet with your IP address. 
+By running this dock container  (full node wallet)  you helping with the decentralization.
+
+ <img src="https://media.discordapp.net/attachments/391034466321170445/1197977362189521026/SmartSelect_20240119-195159_BTCZ_Wallet.jpg?ex=65c674dc&is=65b3ffdc&hm=440de530d5fbbb90b802f9c1f6cd177694e3b27ea420ff89a4e0f25b9ee6d2a0&=&format=webp&width=1094&height=1722"
+ width="280"
+  height="400" />
+
+sudo docker pull simbav/bitcoinz-full  
+
+sudo docker run -it -d --network="host" --name="bitcoinz-full" --restart=always  simbav/bitcoinz-full
+
+
+These are the exposed Web services.
+
+ - Insight explorer          http://127.0.0.1:3001/status
+ - BTCZ Vault Info           http://127.0.0.1:2255
+ - Rate API                  http://127.0.0.1:3333/rates
+ - BWS API                   http://127.0.0.1:3232/bws/api
+ - Paper Wallet              http://127.0.0.1:2265
+ - Web Wallet                http://127.0.0.1:2275
+
+################################
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://getbtcz.com/" target="_blank" data-icon="&#xf1d8;">BTCZ Home Page</a>
+</div>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough">
+<div class="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_5 et_animated et_pb_bg_layout_dark" href="https://Discord.gg/BitcoinZ" data-icon="&#xe102;">Join Discord</a>
+</div>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://t.me/btczofficialgroup" target="_blank" data-icon="&#xf1d8;">Join Telegram</a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://twitter.com/BTCZOfficial" target="_blank" data-icon="&#xf1d8;">Join Twitter</a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://github.com/btcz/" target="_blank" data-icon="&#xf1d8;">Join GitHub</a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://www.facebook.com/groups/bitcoinz.community" target="_blank" data-icon="&#xf1d8;">Join Facebook</a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://www.facebook.com/groups/bitcoinz.community" target="_blank" data-icon="&#xf1d8;">Join Youtube</a>
+</div>
+</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+<div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
+<a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://github.com/simbav911/btcz-docker-full-env" target="_blank" data-icon="&#xf1d8;">Source Code GitHub</a>
+</div>
+################################
+
+Big Thanks to the Marcelus 👑
+
 
 ## Setup
 The docker image `build` can take several hours.
