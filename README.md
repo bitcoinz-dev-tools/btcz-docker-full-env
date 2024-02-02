@@ -4,7 +4,7 @@
  width="999"
   height="280" />
 
-This docker image builds a complete BTCZ environment based on bitcore full node, Insight explorer. Paper Wallet, Web Wallet, BTCZ Vault Info. API with BWS and rates API for the Bitcoinz Copay Wallet, multi-platform included Android on Google Play.
+This docker image builds a complete BTCZ environment based on bitcore full node, Insight Explorer. Paper Wallet, Web Wallet, BTCZ Vault Info. API with BWS and rates API for the BitcoinZ Copay Wallet, multi-platform included Android on Google Play.
 </div>
 </div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_button_module_wrapper et_pb_button_6_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -15,7 +15,7 @@ This docker image builds a complete BTCZ environment based on bitcore full node,
 <a class="et_pb_button et_pb_button_6 et_animated et_pb_bg_layout_dark" href="https://play.google.com/store/apps/details?id=com.btczcom.btcz&hl=en_ZA" target="_blank" data-icon="&#xf1d8;">Android Wallet </a>
 </div>
 
-That is means you can run a full node wallet and connect from any device to your node using BitcoinZ Copay Wallet without middlemen. You can connect to your own network via VPN or port forwarding to BWS API.
+That means you can run a full node wallet and connect from any device to your node using BitcoinZ Copay Wallet without middlemen. You can connect to your own network via VPN or port forwarding to BWS API.
 After running the BitcoinZ full container you need only change BMS settings in the wallet with your IP address. 
 By running this dock container  (full node wallet)  you helping with the decentralization.
 
