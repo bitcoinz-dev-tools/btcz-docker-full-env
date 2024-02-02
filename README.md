@@ -19,7 +19,7 @@ That means you can run a full node wallet and connect from any device to your no
 After running the BitcoinZ full container you need only change BMS settings in the wallet with your IP address. 
 By running this dock container  (full node wallet)  you helping with the decentralization.
 
-<img src="[https://steemitimages.com/DQmezupwdF4Ju2SCfE1fK6qkWNDhj12Sw7r1Um5m6FcFJrD/image.png](https://media.discordapp.net/attachments/463829142736076802/1202920601707085865/Screenshot_2024-02-02_at_10.12.31.png?ex=65cf361c&is=65bcc11c&hm=002143eade740c5fcbcba0e564c7616b1316232831cd51d58a58c5526b576a00&=&format=webp&quality=lossless&width=1008&height=1724)"
+<img src="https://shorturl.at/ezDJU"
  width="280"
   height="400" />
 
