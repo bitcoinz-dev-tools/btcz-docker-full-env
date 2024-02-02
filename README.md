@@ -1,5 +1,5 @@
 # btcz-docker-full-env
-This docker image build a complete BTCZ environement based on bitcore node (Insight explorer and API with BWS and rates API)
+
 <img src="https://steemitimages.com/DQmezupwdF4Ju2SCfE1fK6qkWNDhj12Sw7r1Um5m6FcFJrD/image.png"
  width="999"
   height="280" />
