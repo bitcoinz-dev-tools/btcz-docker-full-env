@@ -1,4 +1,4 @@
-FROM	 archlinux:latest
+FROM	 --platform=linux/amd64 archlinux:latest
 
 
 # Update and install OS dependencies
@@ -50,10 +50,10 @@ RUN	 	 sudo mkdir /data && sudo mkdir /data/db
 # Install the BTCZ binaries
 RUN	 	 mkdir /home/adminbtcz/bitcoinz
 WORKDIR  /home/adminbtcz/bitcoinz
-RUN 	 curl -L -o bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip https://github.com/btcz/bitcoinz/releases/download/2.0.8/bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
-RUN 	 unzip bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
+RUN 	 curl -L -o bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip https://github.com/btcz/bitcoinz/releases/download/2.0.8-EXT/bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip
+RUN 	 unzip bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip
 RUN	 	 chmod +x -R ./
-RUN	 	 rm bitcoinz-2.0.8-3a96465-ubuntu2004-linux64.zip
+RUN	 	 rm bitcoinz-2.0.8-EXT-6c6447fba1-ubuntu1604-linux64.zip
 
 
 # Install nodejs 8
@@ -211,7 +211,21 @@ RUN      echo "" \
 		 && echo "" \
          && echo "" && sleep 30s
 
-
+# Dockerfile tells Docker that a container listens for traffic on the specified port. 
+#Insight explorer
+EXPOSE 3001
+#VaultZ 
+EXPOSE 2255
+#Rate API
+EXPOSE 3333
+#BWS API
+EXPOSE 3232 
+#Paper Wallet
+EXPOSE 2265
+#Web Wallet
+EXPOSE 2275
+ENTRYPOINT ["/bin/bash"]
+CMD ["btcz-start"]
 
 
 
